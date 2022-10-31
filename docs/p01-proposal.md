@@ -23,10 +23,38 @@ INFO-201: Technical Foundations of Informatics - The Information School - Univer
 Autumn 2022
 
 ## Abstract
-In this project we are focusing on the increase of hate crimes from the years 2019 and 2020. We selected these 2 years because there was an uptick of hate crimes in 2020 stemming from the COVID-19 pandemic. The hate crime data is being taken from government databases while comparing this to 
+In this project we are focusing on the increase of hate crimes from the years 2019 and 2020. We selected these 2 years because there was an uptick of hate crimes in 2020 stemming from the COVID-19 pandemic. The hate crime data is being extracted from government databases which will be used to analyze hate crime rates for each state.
 
 ## Keywords
+Hate crime, discrimination, bias, targeted groups.
+
+## Introduction
+[Insert Here]
+
+## Problem Domain
+[Insert Here]
+
+## Research Questions
+1. How does a state’s mean income per capita correlate with the number of hate crimes committed in that state?
+
+1. How were individuals impacted by hate crimes between 2019 and 2020?
+
+1. What offenses of hate crimes increased in frequency between 2019 and 2020?
+
+## The Dataset
+1.  Describe how your dataset is related to your problem domain and, specifically, to your research questions. That is, how will your dataset enable you to answer your research questions?
+  * Insert Answer
+1. Include a table that presents the name of each data file, the number of observations (rows), and the number of variables (columns). (3) Include a full citation to each data file, including URL.
+  * Insert answer
+1. Finally, describe the provenance of your dataset, addressing such key questions as: (a) Who collected the data? When? For what purpose? (b) How was the data collection effort funded? Who is likely to benefit from the data or make money? (c) How was the data validated and held secure? Is it credible and trustworthy? (d) How did you obtain the data? Do you credit the source of the data? (About 400 words.)
+  * Insert Answer
 
 
-* [Design Brief](../instructions/project-design-brief.pdf)
-* [Project Proposal Requirements](../instructions/p01-proposal-requirements.md)
+## Expected Limitations
+[Insert answer]
+
+## Limitations
+[Insert Answer]
+
+## References
+Insert here
