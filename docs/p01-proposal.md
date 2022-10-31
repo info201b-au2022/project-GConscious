@@ -35,11 +35,11 @@ Hate crime, discrimination, bias, targeted groups.
 [Insert Here]
 
 ## Research Questions
-1. How does a state’s mean income per capita correlate with the number of hate crimes committed in that state?
+1. **How does a state’s mean income per capita correlate with the number of hate crimes committed in that state?**
 
-1. How were individuals impacted by hate crimes between 2019 and 2020?
+1. **How were individuals impacted by hate crimes between 2019 and 2020?**
 
-1. What offenses of hate crimes increased in frequency between 2019 and 2020?
+1. **What offenses of hate crimes increased in frequency between 2019 and 2020?**
 
 ## The Dataset
 1.  Describe how your dataset is related to your problem domain and, specifically, to your research questions. That is, how will your dataset enable you to answer your research questions?
