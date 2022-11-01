@@ -62,3 +62,4 @@ This question is to check how the mean income of the average citizen will affect
 
 ## References (MLA 9th)
 - “Crime Data Explorer.” Federal Bureau of Investigation , 2021, https://crime-data-explorer.fr.cloud.gov/pages/downloads. 
+- Uniform Crime Report Hate Crime Statistics, 2020 - Amazon Web Services ... https://s3-us-gov-west-1.amazonaws.com/cg-d4b776d0-d898-4153-90c8-8336f86bdfec/hate_crime_2020_summary.pdf. 
