@@ -58,7 +58,9 @@ This question is to check how the mean income of the average citizen will affect
 [Insert answer]
 
 ## Limitations
-[Insert Answer]
+Our analysis is limited due to the fact that are several things that are left out of our dataset as they are difficult to quantify or measure.  Although the motivation of the hate crime is listed (ie. anti-LGBT, anti-Black, anti-white) the only characteristics listed of the victim and offender's identity is race and age. these include the victim's gender identity and expression, sexual orientaion, disability status, income level, etc.  Even with race, many columns are simply listed as "unknown," age is only categorized as "adult" or "juvenile", this prevents deeper analysis on the ways that intersecting oppressed identities may affect hate crime statistics.
+
+Our analysis will also exclude hate crimes that go unreported as there is no data on them. This may end up affecting the data so that groups that have easier access to law enforcement or are more comfortable reporting to law enforcement are overrepresented as victims.
 
 ## References (MLA 9th)
 - “Crime Data Explorer.” Federal Bureau of Investigation , 2021, https://crime-data-explorer.fr.cloud.gov/pages/downloads. 
