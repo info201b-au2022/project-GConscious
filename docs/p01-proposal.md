@@ -1,7 +1,7 @@
 # *The Rise of Hate Crimes in the United States*
 
 ## Code Name
-TBD
+Teal_Rose
 
 ## Project Title
 The Rise of Hate Crimes in the United States
@@ -48,11 +48,12 @@ This question is to check how the mean income of the average citizen will affect
 ## The Dataset
 1.  Describe how your dataset is related to your problem domain and, specifically, to your research questions. That is, how will your dataset enable you to answer your research questions?
   Our first source is the [FBI crime data explorer](https://crime-data-explorer.fr.cloud.gov/pages/downloads) which contains both our 2019 and 2020 datasets.  This source is crucial to the answering of our reasearch questions as it displays all hate crimes in those years, the state they occurred in, and certain attributes of the victim and offender.
-  Our second source is the 
+  We also have cited the [USDA](https://data.ers.usda.gov/reports.aspx?ID=17826) as well as the [BEA](https://apps.bea.gov/iTable/?reqid=70&step=1&acrdn=2#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyNCwyOSwyNSwzMSwyNiwyNywzMCwzMF0sImRhdGEiOltbIlRhYmxlSWQiLCIyMSJdLFsiQ2xhc3NpZmljYXRpb24iLCJOb24tSW5kdXN0cnkiXSxbIk1ham9yX0FyZWEiLCIwIl0sWyJTdGF0ZSIsWyIwIl1dLFsiQXJlYSIsWyJYWCJdXSxbIlN0YXRpc3RpYyIsIjMiXSxbIlVuaXRfb2ZfbWVhc3VyZSIsIkxldmVscyJdLFsiWWVhciIsWyIyMDIwIiwiMjAxOSJdXSxbIlllYXJCZWdpbiIsIi0xIl0sWyJZZWFyX0VuZCIsIi0xIl1dfQ==) which both show poverty rates and GDP per capita respectively, giving us two different ways to measure economic hardship
   
   
 1. Include a table that presents the name of each data file, the number of observations (rows), and the number of variables (columns). (3) Include a full citation to each data file, including URL.
   * Insert answer
+
 
 
 
@@ -74,3 +75,4 @@ Our analysis will also exclude hate crimes that go unreported as there is no dat
 - “Crime Data Explorer.” Federal Bureau of Investigation , 2021, https://crime-data-explorer.fr.cloud.gov/pages/downloads. 
 - Uniform Crime Report Hate Crime Statistics, 2020 - Amazon Web Services ... https://s3-us-gov-west-1.amazonaws.com/cg-d4b776d0-d898-4153-90c8-8336f86bdfec/hate_crime_2020_summary.pdf. 
 - “Poverty.” USDA ERS - Data Products, 2022, https://data.ers.usda.gov/reports.aspx?ID=17826. 
+- “Regional data: GDP and Personal Income.” BEA Interactive Data Application, 2021, [https://apps.bea.gov/iTable/?reqid=701](https://apps.bea.gov/iTable/?reqid=70&amp;step=1&amp;acrdn=2#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyNCwyOSwyNSwzMSwyNiwyNywzMCwzMF0sImRhdGEiOltbIlRhYmxlSWQiLCIyMSJdLFsiQ2xhc3NpZmljYXRpb24iLCJOb24tSW5kdXN0cnkiXSxbIk1ham9yX0FyZWEiLCIwIl0sWyJTdGF0ZSIsWyIwIl1dLFsiQXJlYSIsWyJYWCJdXSxbIlN0YXRpc3RpYyIsIjMiXSxbIlVuaXRfb2ZfbWVhc3VyZSIsIkxldmVscyJdLFsiWWVhciIsWyIyMDIwIiwiMjAxOSJdXSxbIlllYXJCZWdpbiIsIi0xIl0sWyJZZWFyX0VuZCIsIi0xIl1dfQ==.)
