@@ -29,7 +29,7 @@ In this project we are focusing on the increase of hate crimes from the years 20
 Hate crime, discrimination, bias, targeted groups.
 
 ## Introduction
-[Insert Here]
+The project will focus on analyzing hate crimes from the years 2019 and 2020. In 2020, the COVID-19 virus had turned into a global public health emergency first originating from China. Throughout the course of the year, there was a large and rapid increase of hate crimes committed against people of East Asian descent and only worsened as the pandemic dragged into 2021. We will be exploring hate crime statistics provided from an FBI database where incidents are reported and compiled from local law enforcement agencies across the country. Using that data, we can compare it to other factors like geography, race of aggressors, income levels, etc. 
 
 ## Problem Domain
 [Insert Here]
@@ -37,7 +37,7 @@ Hate crime, discrimination, bias, targeted groups.
 ## Research Questions
 1. **How does a state’s mean income per capita correlate with the number of hate crimes committed in that state?**
 
-1. **How were individuals impacted by hate crimes between 2019 and 2020?**
+1. **How and which individuals were impacted by hate crimes between 2019 and 2020?**
 
 1. **What offenses of hate crimes increased in frequency between 2019 and 2020?**
 
