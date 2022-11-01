@@ -52,14 +52,19 @@ This question is to check how the mean income of the average citizen will affect
   
   
 1. Include a table that presents the name of each data file, the number of observations (rows), and the number of variables (columns). (3) Include a full citation to each data file, including URL.
-  * Insert answer
+| File      | Observations | Variables  | URL   |
+| ----------- | -----------|------------|--------|
+| hate_crime.xlsx | 219578 | 28         |https://crime-data-explorer.fr.cloud.gov/pages/downloads    |
+| Table_13.csv     | 3243 | 9 | https://crime-data-explorer.fr.cloud.gov/pages/downloads       |
+| Table.csv | 50 | 3 | [https://apps.bea.gov/iTable/?reqid=70&step=1](https://apps.bea.gov/iTable/?reqid=70&step=1&acrdn=2#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyNCwyOSwyNSwzMSwyNiwyNywzMCwzMF0sImRhdGEiOltbIlRhYmxlSWQiLCIyMSJdLFsiQ2xhc3NpZmljYXRpb24iLCJOb24tSW5kdXN0cnkiXSxbIk1ham9yX0FyZWEiLCIwIl0sWyJTdGF0ZSIsWyIwIl1dLFsiQXJlYSIsWyJYWCJdXSxbIlN0YXRpc3RpYyIsIjMiXSxbIlVuaXRfb2ZfbWVhc3VyZSIsIkxldmVscyJdLFsiWWVhciIsWyIyMDIwIiwiMjAxOSJdXSxbIlllYXJCZWdpbiIsIi0xIl0sWyJZZWFyX0VuZCIsIi0xIl1dfQ==) |
+| untitled.csv |  3243 | 9 | https://data.ers.usda.gov/reports.aspx?ID=17826 |
+
 
 
 
 
 1. Finally, describe the provenance of your dataset, addressing such key questions as: (a) Who collected the data? When? For what purpose? (b) How was the data collection effort funded? Who is likely to benefit from the data or make money? (c) How was the data validated and held secure? Is it credible and trustworthy? (d) How did you obtain the data? Do you credit the source of the data? (About 400 words.)
-  * Insert Answer
-
+  a) the data 
 
 ## Expected Implications
 Our project will show the ways in which poverty and disease can affect social tensions and how these  areas of our socioeconmic scenario are intertwined and can affect one another, stressing the importance of maintaining a healthy and happy population in order to achieve maximum human well-being.  
