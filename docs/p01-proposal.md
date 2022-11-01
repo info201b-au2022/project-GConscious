@@ -56,5 +56,5 @@ The project will focus on analyzing hate crimes from the years 2019 and 2020. In
 ## Limitations
 [Insert Answer]
 
-## References
-Insert here
+## References (MLA 9th)
+- “Crime Data Explorer.” Federal Bureau of Investigation , 2021, https://crime-data-explorer.fr.cloud.gov/pages/downloads. 
