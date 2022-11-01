@@ -47,15 +47,23 @@ This question is to check how the mean income of the average citizen will affect
 
 ## The Dataset
 1.  Describe how your dataset is related to your problem domain and, specifically, to your research questions. That is, how will your dataset enable you to answer your research questions?
-  * Insert Answer
+  Our first source is the [FBI crime data explorer](https://crime-data-explorer.fr.cloud.gov/pages/downloads) which contains both our 2019 and 2020 datasets.  This source is crucial to the answering of our reasearch questions as it displays all hate crimes in those years, the state they occurred in, and certain attributes of the victim and offender.
+  Our second source is the 
+  
+  
 1. Include a table that presents the name of each data file, the number of observations (rows), and the number of variables (columns). (3) Include a full citation to each data file, including URL.
   * Insert answer
+
+
+
 1. Finally, describe the provenance of your dataset, addressing such key questions as: (a) Who collected the data? When? For what purpose? (b) How was the data collection effort funded? Who is likely to benefit from the data or make money? (c) How was the data validated and held secure? Is it credible and trustworthy? (d) How did you obtain the data? Do you credit the source of the data? (About 400 words.)
   * Insert Answer
 
 
 ## Expected Implications
-[Insert answer]
+Our project will show the ways in which poverty and disease can affect social tensions and how these  areas of our socioeconmic scenario are intertwined and can affect one another, stressing the importance of maintaining a healthy and happy population in order to achieve maximum human well-being.  
+
+It will also show what groups are most targetted by what types of hate crimes, showing what has yet to be done in order to ameliorate persistent inequality and bigotry.
 
 ## Limitations
 Our analysis is limited due to the fact that are several things that are left out of our dataset as they are difficult to quantify or measure.  Although the motivation of the hate crime is listed (ie. anti-LGBT, anti-Black, anti-white) the only characteristics listed of the victim and offender's identity is race and age. these include the victim's gender identity and expression, sexual orientaion, disability status, income level, etc.  Even with race, many columns are simply listed as "unknown," age is only categorized as "adult" or "juvenile", this prevents deeper analysis on the ways that intersecting oppressed identities may affect hate crime statistics.
@@ -65,3 +73,4 @@ Our analysis will also exclude hate crimes that go unreported as there is no dat
 ## References (MLA 9th)
 - “Crime Data Explorer.” Federal Bureau of Investigation , 2021, https://crime-data-explorer.fr.cloud.gov/pages/downloads. 
 - Uniform Crime Report Hate Crime Statistics, 2020 - Amazon Web Services ... https://s3-us-gov-west-1.amazonaws.com/cg-d4b776d0-d898-4153-90c8-8336f86bdfec/hate_crime_2020_summary.pdf. 
+- “Poverty.” USDA ERS - Data Products, 2022, https://data.ers.usda.gov/reports.aspx?ID=17826. 
