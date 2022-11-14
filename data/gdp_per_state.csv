@@ -1,0 +1,70 @@
+"SAINC1 State annual personal income summary: personal income, population, per capita personal income"
+"SAINC1 State annual personal income summary: personal income, population, per capita personal income"
+State or DC
+GeoFips,GeoName,2019,2020
+00000,United States,56250,59765
+01000,Alabama,43288,46179
+02000,Alaska *,61316,62756
+04000,Arizona,48124,52327
+05000,Arkansas,44324,47154
+06000,California,64919,70647
+08000,Colorado,62124,65358
+09000,Connecticut,75533,78463
+10000,Delaware,54217,56324
+11000,District of Columbia,84671,89735
+12000,Florida,54560,57292
+13000,Georgia,49083,51987
+15000,Hawaii *,54700,57241
+16000,Idaho,45924,49491
+17000,Illinois,58438,62139
+18000,Indiana,48749,52219
+19000,Iowa,50367,53312
+20000,Kansas,52876,55974
+21000,Kentucky,43875,47525
+22000,Louisiana,47668,50809
+23000,Maine,50728,54912
+24000,Maryland,62313,65685
+25000,Massachusetts,73213,78388
+26000,Michigan,49142,53388
+27000,Minnesota,58543,62240
+28000,Mississippi,39445,42716
+29000,Missouri,49001,52108
+30000,Montana,50289,54106
+31000,Nebraska,54182,57421
+32000,Nevada,52602,55406
+33000,New Hampshire,64747,68542
+34000,New Jersey,68438,71505
+35000,New Mexico,43530,46760
+36000,New York,67366,71577
+37000,North Carolina,48741,51900
+38000,North Dakota,57110,60864
+39000,Ohio,50035,53545
+40000,Oklahoma,48646,50518
+41000,Oregon,52718,57005
+42000,Pennsylvania,56952,60685
+44000,Rhode Island,55830,59941
+45000,South Carolina,46681,49105
+46000,South Dakota,55294,60446
+47000,Tennessee,49343,52351
+48000,Texas,54076,55601
+49000,Utah,48580,52225
+50000,Vermont,55442,59296
+51000,Virginia,59073,62189
+53000,Washington,64189,68350
+54000,West Virginia,42951,45240
+55000,Wisconsin,52893,55941
+56000,Wyoming,64117,65782
+91000,New England,68959,73239
+92000,Mideast,64235,67975
+93000,Great Lakes,52296,55942
+94000,Plains,53266,56626
+95000,Southeast,49978,52930
+96000,Southwest,52033,54133
+97000,Rocky Mountain,55312,58648
+98000,Far West,62936,68034
+
+Legend/Footnotes
+"2/ Per capita personal income is total personal income divided by total midyear population. BEA produced intercensal population figures for 2010 to 2019 that are tied to the Census Bureau decennial counts for 2010 and 2020 to create consistent time series that are used to prepare per capita personal income statistics. BEA used the Census Bureau Das Gupta method (see https://www2.census.gov/programs-surveys/popest/technical-documentation/methodology/intercensal/2000-2010-intercensal-estimates-methodology.pdf), modified to account for an extra leap year day, to produce the intercensal population figures that will be used until Census releases its official intercensal population data."
+* Estimates prior to 1950 are not available for Alaska and Hawaii.
+Note. All dollar estimates are in millions of current dollars (not adjusted for inflation). Calculations are performed on unrounded data.
+"  Last updated: September 30, 2022--revised statistics for 2017-2021."
