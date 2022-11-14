@@ -24,11 +24,20 @@ income_and_counts <- income_levels %>%
   rename("income_2020" = "2020") %>% 
   rename("income_2019" = "2019")
 
-ggplot(data = income_and_counts) +
-  geom_point(mapping = aes(x = counts, y = income_2020))
+income_vs_counts_2020 <- ggplot(data = income_and_counts) +
+  geom_point(mapping = aes(x = counts, y = income_2020)) +
+  labs(
+       title = "Number of Hate Crimes vs. Income Per Capita", 
+       x = "Total Number of Hate Crimes Per State",
+       y = "Income Per Capita for 2020 (Dollars)") 
 
-ggplot(data = income_and_counts) +
-  geom_point(mapping = aes(x = counts, y = income_2019))
+
+income_vs_counts_2019 <- ggplot(data = income_and_counts) +
+  geom_point(mapping = aes(x = counts, y = income_2019)) + 
+  labs(
+    title = "Number of Hate Crimes vs. Income Per Capita", 
+    x = "Total Number of Hate Crimes Per State",
+    y = "Income Per Capita for 2019 (Dollars)") 
 
 
 
