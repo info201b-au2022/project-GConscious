@@ -2,7 +2,6 @@
 
 library(tidyverse)
 library(dplyr)
-library(stringr)
 library(ggplot2)
 
 hate_crimes <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-GConscious/main/data/hate_crime_filtered.csv")
