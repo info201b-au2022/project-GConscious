@@ -1,7 +1,7 @@
 #Summary Information Script
 library(dplyr)
 
-filepath <- "./data/hate_crime.csv"
+filepath <- "../data/hate_crime.csv"
 data <- read.csv(filepath)
 
 #Filter data to only 2019/2020 data
@@ -30,7 +30,6 @@ get_percentage_most_common <- function(df){
     pull(n)
   
   output <- output / nrow(df)
-    
   return(output)
 }
 

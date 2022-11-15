@@ -5,7 +5,7 @@ library(stringr)
 library(ggplot2)
 library(scales)
 
-filepath <- "./data/hate_crime.csv"
+filepath <- "../data/hate_crime.csv"
 data <- read.csv(filepath)
 
 #Filter data to only 2019/2020 data
@@ -22,6 +22,8 @@ summarized_data <- filtered_data %>%
                             ))
 
 plot <- ggplot(summarized_data) +
+  aes(x=reorder(Position,Position,
+               function(x)-length(x))) +
   geom_col(
     mapping = aes(x= BIAS_DESC, y = n)
   )+
