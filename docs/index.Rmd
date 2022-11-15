@@ -30,17 +30,25 @@ This table
 
 ## Graphs
 
-### Figure 1: Hate Crime Count vs. GDP Per Captia
+### Figure 1: Hate Crime Count vs. Income Per Capita
 
 ```{r, include=FALSE}
 source("../source/chart_1.r")
 ```
+
+```{r echo=FALSE}
+income_vs_counts_2020
+```
+
+
 
 ### Figure 2: Top Ten Hate Crime Biases (2019-2020)
 
 ```{r, include=FALSE}
 source("../source/chart_2.r")
 ```
+
+
 
 ```{r, echo=FALSE}
 plot
@@ -50,8 +58,5 @@ This chart shows the top ten hate crime biases in these two years and how many o
 
 ### Figure 3: Line Graph of Hate crimes (2019-2020)
 
-```{r, include=FALSE}
-source("../source/chart_3.r")
-```
 
 
