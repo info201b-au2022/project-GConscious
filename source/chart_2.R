@@ -1,10 +1,11 @@
-# Second Chart
+# Second Chart - Bar Graph for top ten hate crimes
 library(tidyverse)
 library(dplyr)
 library(stringr)
 library(ggplot2)
 library(scales)
 
+#read csv
 filepath <- "../data/hate_crime.csv"
 data <- read.csv(filepath)
 
@@ -21,6 +22,7 @@ summarized_data <- filtered_data %>%
                             "Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group)" = "Anti-LGBT (Mixed Group)"
                             ))
 
+#Create plot
 plot <- ggplot(summarized_data) +
   aes(x=reorder(Position,Position,
                function(x)-length(x))) +
