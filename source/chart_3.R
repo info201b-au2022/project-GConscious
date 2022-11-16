@@ -1,4 +1,3 @@
-# Third Chart
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
@@ -16,8 +15,8 @@ hc_2020 <- hc_2019_20 %>%
 
 g_range<- (0, hc_2019, hc_2020)
 
-plot(hc_2019, type="o", col("blue"), ylim=g_range)
-plot(hc_2020, type="o", col("red"), ylim=g_range)
+ggplot(data=hc_2019, aes(x=time, y=number_of_hate_crimes)) +
+  geom_line()
+ggplot(data=hc_2020, aes(x=time, y=number_of_hate_crimes)) +
+  geom_line()
 
-title(xlab="Years", col.lab=rgb(0,0.5,0))
-title(ylab="Total number of incidents of hate crimes", col.lab=rgb(0,0.5,0)
