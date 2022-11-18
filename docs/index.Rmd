@@ -40,6 +40,7 @@ source("../source/chart_1.r")
 income_vs_counts_2020
 ```
 
+This scatter plot displays data from for the number of hate crimes per state versus the income per capita in each state and Washington D.C. The values used in this plot are all from government databases from 2020. The number of hate crimes was compared against the income per capita in each state because we wanted to evaluate how hate crimes are affecting people in states with lower incomes than higher incomes. 
 
 
 ### Figure 2: Top Ten Hate Crime Biases (2019-2020)
