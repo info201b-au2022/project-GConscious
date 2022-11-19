@@ -15,7 +15,7 @@ source("../source/summary.R")
 
 There were **`r formatC(total_hate_crimes_2019_20, format="d", big.mark=",")`** hate crimes in 2019 and 2020. **`r formatC(total_hate_crimes_2019, format="d", big.mark=",")`** of these occurred in 2019 and **`r formatC(total_hate_crimes_2020, format="d", big.mark=",")`** of these occurred in 2020.  The most common hate crime in 2019 was **`r most_common_2019`**, composing **`r round(percentage_most_common_2019,digits = 3)*100`%** of all hate crimes.  The most common hate crime in 2020 was **`r most_common_2020`**, composing **`r round(percentage_most_common_2020,digits = 3)*100`%** of all hate crimes.
 
-## Table: Hate Crimes per state
+## Table: Hate Crimes Per State
 
 ```{r, include=FALSE}
 source("../source/table.r")
@@ -26,7 +26,7 @@ library(knitr)
 kable(aggregate_table)
 ```
 
-This table 
+This table displays the counts of all reported hate crimes that have taken place in each state and Washington D.C.
 
 ## Graphs
 
@@ -50,14 +50,22 @@ source("../source/chart_2.r")
 ```
 
 
-
 ```{r, echo=FALSE}
 plot
 ```
 
-This chart shows the top ten hate crime biases in these two years and how many of each there are. This was chosen because it shows which groups are most disproportionately affected by hate crime.  An insight that can be pulled from this data is the over representation of anti-African-American hate crime in this data, despite only making up about 13% of the US population, African Americans are the most targeted group by hate crime, and about three times more common than anti-White hate crimes, despite white people making a majority of the population.  This puts on display the extent of modern racial tensions in the United States.
+This chart shows the top ten hate crime biases in these two years and how many of each there are. This was chosen because it shows which groups are most disproportionately affected by hate crime.  An insight that can be pulled from this data is the over representation of anti-African-American hate crime in this data, despite only making up about 13% of the US population, African Americans are the most targeted group by hate crime, and about three times more common than anti-White hate crimes, despite white people making a majority of the population. This puts on display the extent of modern racial tensions in the United States.
 
-### Figure 3: Line Graph of Hate crimes (2019-2020)
 
+### Figure 3: Line Graph of Hate Crimes Per Month
+```{r include=FALSE}
+source("../source/chart_3.r")
+```
+
+```{r echo=FALSE}
+month_counts_2020
+```
+
+This line chart displays data that shows the number of hate crimes taking place per month in each state for 2020. You can notice an uptick in reported hate crimes during the summer months as many social movements and protests were taking place across the country. 
 
 
