@@ -1,6 +1,6 @@
 ---
 title: "Hate Crimes in the United States (2019-2020)"
-author: "Anne Clark, Sylvia Duan, Amrith Gandham,  Mahir Krishnan"
+author: "Anne Clark, Amrith Gandham"
 date: "11/14/2022"
 output: html_document
 ---
