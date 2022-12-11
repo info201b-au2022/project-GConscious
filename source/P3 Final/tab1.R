@@ -12,7 +12,7 @@ tab_chart_1 <- tabPanel(
       selectInput(
         inputId = "state_select",
         label = "Select a state",
-        choices = states_list
+        choices = c("None", states_list)
       )
     ),
     mainPanel(

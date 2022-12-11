@@ -3,32 +3,10 @@ library(dplyr)
 library(ggplot2)
 library(plotly)
 
-#Chart 1 data 
-hate_crimes <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-GConscious/main/data/hate_crime_filtered.csv")
-income_levels <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-GConscious/main/data/income_data.csv")
+source("chart_1_analysis.R")
+source("chart_3_analysis.R")
 
-income_levels <- income_levels %>% 
-  rename("2019" = "X2019") %>% 
-  rename("2020" = "X2020")
-
-grouped_states <- hate_crimes %>% 
-  select(STATE_NAME) %>% 
-  group_by(STATE_NAME) %>% 
-  tally() %>% 
-  rename("state_name" = "STATE_NAME") %>% 
-  rename("counts" = "n")
-
-income_and_counts <- income_levels %>% 
-  full_join(grouped_states) %>%
-  rename("income_2020" = "2020") %>% 
-  rename("income_2019" = "2019")
-
-states_list <- hate_crimes %>% 
-  select(STATE_NAME) %>% 
-  group_by(STATE_NAME) %>% 
-  tally() %>% 
-  pull(STATE_NAME)
-
+#Chart 1 plot
 plot_chart_1 <- function(state_input){
   state_data <- income_and_counts %>% 
     select(state_name, counts, income_2020) %>% 
@@ -44,8 +22,53 @@ plot_chart_1 <- function(state_input){
     return(ggplotly(plotted_chart))
 }
 
-server <- function(input, output){
-  output$chart_1 <- renderPlotly({
-    return(plot_chart_1(input$state_select))
-  })
+#Chart 3 plot
+plot_chart_3 <- function(state_input){
+  state_df <- hc_2020 %>%
+    select(month_name, STATE_NAME) %>%
+    filter(STATE_NAME == state_input) %>% 
+    group_by(month_name) %>%
+    tally() %>%
+    rename("counts" = "n") %>% 
+    mutate(month_name = factor(month_name, levels = month.abb)) %>%
+    arrange(month_name)
+  
+  plotted_chart_3 <- ggplot(state_df, aes(x = month_name, y = counts, group = 1)) +
+    geom_line() +
+    geom_point() +
+    labs(
+      title = paste0("Number of Hate Crimes Per Month In: ", state_input),
+      x = "Month",
+      y = "Total Number of Hate Crimes"
+    )
+  
+  return(ggplotly(plotted_chart_3))
 }
+
+
+server <- function(input, output){
+  #Render chart 1
+  output$chart_1 <- renderPlotly({
+    if(input$state_select == "None"){
+      return(ggplotly(plotted_default))
+    } else{
+    return(plot_chart_1(input$state_select))
+    }
+  })
+  
+  #Render chart 3
+  output$chart_3 <- renderPlotly({
+    if(input$state_select_input == "None"){
+      return(ggplotly(chart3_default_plot))
+    } else{
+      return(plot_chart_3(input$state_select_input))
+    }
+  })
+  
+}
+
+
+
+
+
+
