@@ -16,7 +16,7 @@ ui <- navbarPage(
   # introTab,
   tab_chart_1,
   # tabInt2,
-  tab_chart_3
+  tab_chart_3,
   # summaryTab,
-  # reportTab
+  reportTab
 )
