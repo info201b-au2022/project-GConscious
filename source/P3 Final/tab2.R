@@ -21,7 +21,12 @@ tab_chart_2 <- tabPanel(
       )
     ),
     mainPanel(
-      plotlyOutput(outputId = "chart_2")
+      plotlyOutput(outputId = "chart_2"),
+      p("This chart shows an increase in Hate-crimes that are more racially focused across all
+        States in 2020, and also shows some regional differences in hate-crimes.  In New York, Anti-Semitic
+        hate crimes are the most common, in Alabama, anti-white hate-crimes are the most common,
+        however in most states, the most common is Anti-Black/African American, which increased
+        substantially in 2020.")
     )
   )
 )
