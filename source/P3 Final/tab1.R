@@ -16,7 +16,10 @@ tab_chart_1 <- tabPanel(
       )
     ),
     mainPanel(
-      plotlyOutput(outputId = "chart_1")
+      plotlyOutput(outputId = "chart_1"),
+      p("Higher GDP per capita in a state tends to correlate slightly with the amount of hate
+        Crimes that occur, this is likely because these areas have a larger, more dense and
+        urbanized population")
     )
   )
 )

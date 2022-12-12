@@ -13,10 +13,10 @@ source("report.R")
 
 ui <- navbarPage(
   "Hate Crimes in the United States (2019-2020)",
-  # introTab,
+  introTab,
   tab_chart_1,
-  # tabInt2,
+  tab_chart_2,
   tab_chart_3,
-  # summaryTab,
+  summaryTab,
   reportTab
 )

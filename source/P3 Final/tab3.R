@@ -16,7 +16,11 @@ tab_chart_3 <- tabPanel(
       )
     ),
     mainPanel(
-      plotlyOutput(outputId = "chart_3")
+      plotlyOutput(outputId = "chart_3"),
+      p("This chart shows how hate crimes were affected throughout the year 2020 at different
+        months.  The chart shows that in many states there was a dip from March to May due to the
+        initial lockdowns of the COVID-19 pandemic, followed by a spike in June-July of 2020 due
+        to the protests following the death of George Floyd.")
     )
   )
 )
