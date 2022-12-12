@@ -14,6 +14,7 @@ plot_chart_1 <- function(state_input){
   
   plotted_chart <- ggplot(state_data, aes(x = counts, y = income_2020)) +
     geom_point() +
+    geom_label(label = state_input) +
     labs(
       title = paste0("Number of Hate Crimes vs. Income Per Capita: ", state_input), 
       x = "Total Number of Hate Crimes Per State",
@@ -41,7 +42,6 @@ plot_chart_3 <- function(state_input){
       x = "Month",
       y = "Total Number of Hate Crimes"
     )
-  
   return(ggplotly(plotted_chart_3))
 }
 

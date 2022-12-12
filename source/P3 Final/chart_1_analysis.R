@@ -2,6 +2,7 @@ library(shiny)
 library(dplyr)
 library(ggplot2)
 library(plotly)
+library(ggrepel)
 
 #Chart 1 analysis
 hate_crimes <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-GConscious/main/data/hate_crime_filtered.csv")
@@ -29,10 +30,11 @@ states_list <- hate_crimes %>%
   tally() %>% 
   pull(STATE_NAME)
 
-plotted_default <- ggplot(income_and_counts, aes(x = counts, y = income_2020)) +
+plotted_default <- ggplot(income_and_counts, aes(x = counts, y = income_2020, text = paste0("State: ", states_list))) +
   geom_point() +
+  geom_text(label = states_list, size = 2, nudge_x = 0.25, nudge_y = 0.25) +
   labs(
-    title = paste0("Number of Hate Crimes vs. Income Per Capita"), 
+    title = "Number of Hate Crimes vs. Income Per Capita", 
     x = "Total Number of Hate Crimes Per State",
     y = "Income Per Capita for 2020 (Dollars)") 
 
