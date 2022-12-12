@@ -43,7 +43,7 @@ This question is to check how the mean income of the average citizen will affect
 1. **How and which individuals were impacted by hate crimes between 2019 and 2020?**
  This question speaking to the quality of life for certain people who were impacted by the hate crimes and how it changed between the 2 years of 2019 and 2020.
 
-1. **What offenses of hate crimes increased in frequency between 2019 and 2020?**
+1. **What biases of hate crimes increased in frequency between 2019 and 2020?**
  This research question is more or less straightforward and speaks to how the people and the trends in which hate crimes were committed between the year 2019 and 2020 and which group of people have been targeted more, or which hate crime may have been committed the most.
 
 ## The Dataset
