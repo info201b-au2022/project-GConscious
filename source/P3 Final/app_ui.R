@@ -15,7 +15,7 @@ ui <- navbarPage(
   "Hate Crimes in the United States (2019-2020)",
   # introTab,
   tab_chart_1,
-  # tabInt2,
+  tab_chart_2,
   tab_chart_3,
   # summaryTab,
   reportTab
