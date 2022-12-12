@@ -12,10 +12,6 @@ Amrith Gandham (amrithg@uw.edu)
 
 Anne Clark (noahc845@uw.edu)
 
-Mahir Krishnan (mkrish3@uw.edu)
-
-Sylvia Duan (wzduan@uw.edu)
-
 ## Affiliation
 INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 
@@ -74,12 +70,6 @@ Our project will show what groups are most targeted by what types of hate crimes
 ## Limitations
 Our analysis is limited due to the fact that are several things that are left out of our dataset as they are difficult to quantify or measure. Although the motivation of the hate crime is listed, the only characteristics listed of the victim and offender's identity is race and age. Even with race, many observations are simply listed as "unknown," age is only categorized as "adult" or "juvenile", which prevents deeper analysis on the ways that intersecting oppressed identities may affect hate crime statistics. One way to counteract this is to take the existing data we have and look at it from a broad scope. Even though we may not know the ages of the offenders we can still conduct an analysis that takes into consideration the amount of adults and juveniles committing hate crimes. In order to solve the issue with the "unknown" values we will have to clean the data by removing those observations because they are not viable to use in the analysis.
 
-#Findings
-
-
-#Discussion
-
-#Conclusion
 
 ## References (MLA 9th)
 - “Crime Data Explorer.” Federal Bureau of Investigation , 2021, https://crime-data-explorer.fr.cloud.gov/pages/downloads.
