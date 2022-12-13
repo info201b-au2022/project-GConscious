@@ -13,6 +13,11 @@ tab_chart_3 <- tabPanel(
         inputId = "state_select_input",
         label = "Select a state",
         choices = c("None", states_list)
+      ),
+      selectInput(
+        inputId = "year_input",
+        label = "Select a year",
+        choices = c("2019", "2020")
       )
     ),
     mainPanel(
