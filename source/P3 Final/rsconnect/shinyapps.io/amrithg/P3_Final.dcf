@@ -1,0 +1,14 @@
+name: P3_Final
+title: P3_Final
+username:
+account: amrithg
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7881442
+bundleId: 6630593
+url: https://amrithg.shinyapps.io/P3_Final/
+when: 1670914412.55082
+lastSyncTime: 1670914412.55083
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData
