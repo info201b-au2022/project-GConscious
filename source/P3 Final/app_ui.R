@@ -2,6 +2,7 @@ library(shiny)
 library(dplyr)
 library(ggplot2)
 library(plotly)
+library(shinythemes)
 
 source("app_server.R")
 source("intro.R")
@@ -12,6 +13,7 @@ source("summary.R")
 source("report.R")
 
 ui <- navbarPage(
+  theme = shinytheme("cosmo"),
   "Hate Crimes in the United States (2019-2020)",
   introTab,
   tab_chart_1,
